@@ -3,10 +3,6 @@ on:
   push:
     branches: [ master ]
     paths:
-            - 'force-app/**'
-  pull_request:
-    branches: [ master ]
-    paths:
             - 'force-app/**'         
 
 jobs:
