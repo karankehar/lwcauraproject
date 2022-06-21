@@ -1,0 +1,32 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <lightning:card variant="Narrow" >
+    <div class="slds-grid slds-grid_vertical-align-center slds-grid_align-center ">
+        <div class="slds-col slds-grow-none ">
+            <span><lightning:formattedUrl value="{!$Label.c.Help_Guest_Services_URL}" tooltip="{!$Label.c.Help_Guest_Services_Label}" label="{!$Label.c.Help_Guest_Services_Label}" target="_blank" class= 'linkfont' /> | </span>
+        </div>
+        <div class="slds-col slds-grow-none ">
+            <span><lightning:formattedUrl value="{!$Label.c.Terms_of_Use_URL}" tooltip="{!$Label.c.Terms_of_Use_Label}" label="{!$Label.c.Terms_of_Use_Label}" target="_blank" class= 'linkfont' /> | </span>
+        </div>
+        <div class="slds-col  slds-grow-none ">
+            <span><lightning:formattedUrl value="{!$Label.c.Do_Not_Sell_My_Personal_Information_URL}" tooltip="{!$Label.c.Do_Not_Sell_My_Personal_Information_Label}" label="{!$Label.c.Do_Not_Sell_My_Personal_Information_Label}" target="_blank" class= 'linkfont' /> | </span>
+        </div>
+        <div class="slds-col  slds-grow-none ">
+            <span><lightning:formattedUrl value="{!$Label.c.The_Walt_Disney_Company_Privacy_Policy_URL}" tooltip="{!$Label.c.The_Walt_Disney_Company_Privacy_Policy_Label}" label="{!$Label.c.The_Walt_Disney_Company_Privacy_Policy_Label}" target="_blank" class= 'linkfont'  /> | </span>
+        </div>
+        <div class="slds-col  slds-grow-none">
+            <span><lightning:formattedUrl value="{!$Label.c.Your_California_Privacy_Rights_URL}" tooltip="{!$Label.c.Your_California_Privacy_Rights_Label}" label="{!$Label.c.Your_California_Privacy_Rights_Label}" target="_blank" class= 'linkfont'  /> | </span>
+        </div>
+        <div class="slds-col slds-grow-none">
+            <span><lightning:formattedUrl value="{!$Label.c.Children_s_Online_URL}" tooltip="{!$Label.c.Children_s_Online_Label}" label="{!$Label.c.Children_s_Online_Label}" target="_blank" class= 'linkfont'  /></span>
+        </div>
+    </div>
+    <div class="slds-grid slds-grid_vertical-align-center slds-grid_align-center">
+        <div class="slds-col  slds-grow-none">
+            <span><lightning:formattedUrl value="{!$Label.c.Legal_Notices_URL}" tooltip="{!$Label.c.Legal_Notices_Label}" label="{!$Label.c.Legal_Notices_Label}" target="_blank" class= 'linkfont'  /> | </span>
+        </div>
+        <div class="slds-col slds-grow-none">
+            <span><lightning:formattedUrl value="{!$Label.c.Interest_Based_Ads_URL}" tooltip="{!$Label.c.Interest_Based_Ads_Label}" label="{!$Label.c.Interest_Based_Ads_Label}" target="_blank" class= 'linkfont'  /></span>
+        </div>
+    </div>
+    </lightning:card>
+</aura:component>
