@@ -1,7 +1,7 @@
 name: Sample Workflow
 on:
   push:
-    branches: [ FeatureBranch1 ]
+    branches: [ master ]
     paths:
             - 'force-app/**'        
 
